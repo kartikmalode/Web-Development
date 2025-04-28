@@ -1,0 +1,31 @@
+/* div{
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 10px green;
+    background-image: url("img.jpg");
+    background-size: cover;
+} */
+
+.card{
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px green;
+    transition: 1s;
+    background-size: cover;
+
+
+}
+img{
+    border-radius: 5px 5px 0 0;
+}
+.desc{
+    padding: 5px;
+}
+.card:hover{
+    box-shadow: 0 8px 16px green;
+
+   
+}

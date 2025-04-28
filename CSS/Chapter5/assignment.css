@@ -1,0 +1,39 @@
+#container{
+    height: 400px;
+    width: 400px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: center;
+   
+}
+#container div{
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    background-color: gray;
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+#con{
+    height: 50px;
+    width: 900px;
+    background-color: palevioletred;
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+#con div{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    margin-left: 5px;
+    line-height: 50px;
+}

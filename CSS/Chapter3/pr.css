@@ -1,0 +1,55 @@
+#trafic{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+
+.light{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+    
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+h1{
+    display: inline;
+}
+span{
+    display: block;
+}
+#div{
+    height: 400px;
+    width: 400px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin: 20px;
+    display: inline-block;
+    font-size: 20px;
+}
+#ex{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin-left: 10%;
+    font-size: 1em;
+
+}
+#third{
+    display: none;
+}
+section{
+    font-size: 20px;
+}
+div{
+    font-size: 2rem;
+}

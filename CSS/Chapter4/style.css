@@ -1,0 +1,28 @@
+div{
+    height: 300px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.1);
+    border: 2px solid black;
+}
+#opacity{
+    height: 300px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.7);
+    opacity: 0.1;
+    border: 2px solid black;
+}
+
+button{
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: pink;
+    color: black;
+    border-radius: 2px;
+    border: 2px solid black;
+    transition: margin-top 2s ease-in 0.2;
+}
+
+button:hover{
+    margin-top: 400px;
+    background-color: green;
+}
